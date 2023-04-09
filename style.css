@@ -100,7 +100,7 @@ body{
 }
 .reactions>span{
     color: hsl(0, 100%, 67%);
-    margin-right: 50px;
+    margin-right: 40px;
     margin-left: 10px;
 }
 .memory{
@@ -109,7 +109,7 @@ body{
 }
 .memory>span{
     color: hsl(39, 100%, 56%);
-    margin-right: 60px;
+    margin-right: 50px;
     margin-left: 10px;
 }
 .verbal{
@@ -118,7 +118,7 @@ body{
 }
 .verbal>span{
     color:hsl(166, 100%, 37%);
-    margin-right: 75px;
+    margin-right: 60px;
     margin-left: 10px;
 }
 .visual{
@@ -127,6 +127,6 @@ body{
 }
 .visual>span{
     color: hsl(234, 85%, 45%);
-    margin-right: 75px;
+    margin-right: 65px;
     margin-left: 10px;
 }
