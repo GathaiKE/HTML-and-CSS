@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML & CSS</title>
+</head>
+<body>
+    <!-- An enclosing container -->
+    <div class="container">
+        <!-- The first section on the left -->
+        <div class="subcontainer1">
+            <h2>Your Result</h2>
+            <!-- The circle -->
+            <div class="score">
+                <h1>76</h1>
+                <h4>of 100</h4>
+            </div>
+            <div class="remark">
+                <h2>Great</h2>
+                <p>You scored higher than 65% of people who have taken these tests.</p>
+            </div>
+        </div>
+        <!-- The second section on the right -->
+        <div class="subcontainer2">
+            <h2>Summary</h2>
+            <!-- A container for divs with the tests and their scores -->
+            <div class="pointers">
+                <div class="reactions">
+                    <img src="./images/icon-reaction.svg" alt="">
+                    <span>Reactions</span><b>80</b>/100</div>
+                <div class="memory">
+                    <img src="./images/icon-memory.svg" alt="">
+                    <span>Memory</span><b>92</b>/100</div>
+                <div class="verbal">
+                    <img src="./images/icon-verbal.svg" alt="">
+                    <span>Verbal</span><b>61</b>/100</div>
+                <div class="visual">
+                    <img src="./images/icon-visual.svg" alt="">
+                    <span>Visual</span><b>72</b>/100</div>
+            </div>
+            <!-- The continue button -->
+            <button type="button" class="continue">Continue</button>
+        </div>
+    </div>
+</body>
+</html>
